@@ -33,7 +33,7 @@ body {
 }
 
 .titulo-principal span {
-    color: rgb(225, 15, 15);
+    color:  rgb(58, 196, 239);
 }
 
 .botao {
@@ -77,5 +77,5 @@ body {
 
 .ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid rgb(194, 12, 12);
+    border-bottom: 4px solid rgb(58, 196, 239);
 }
