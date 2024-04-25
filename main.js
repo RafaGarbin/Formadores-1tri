@@ -38,4 +38,8 @@ function atualizaCronometro(){
         contadores[i].textContent = calculaTempo(tempos[i]);  
     }
 }
-setInterval(atualizaCronometro,1000);
+function comecaCronometro(){
+    atualizaCronometro();
+    setInterval(atualizaCronometro,1000);
+}
+comecaCronometro();
