@@ -45,12 +45,12 @@ contador += '</div>';
 
 contador += '<div class="contador-digito">';
 contador += '   <p class="contador-digito-numero">'+minutos+'</p>';
-contador += '   <p class="contador-digito-texto">min</p>';
+contador += '   <p class="contador-digito-texto">minutos</p>';
 contador += '</div>';
 
 contador += '<div class="contador-digito">';
 contador += '   <p class="contador-digito-numero">'+segundos+'</p>';
-contador += '   <p class="contador-digito-texto">seg</p>';
+contador += '   <p class="contador-digito-texto">segundos</p>';
 contador += '</div>';
 
 return contador;
